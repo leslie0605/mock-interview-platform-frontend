@@ -4,3 +4,4 @@
    cd mock-interview-platform-frontend
    npm install
    npm start
+   ```
