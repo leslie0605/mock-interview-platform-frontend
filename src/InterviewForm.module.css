@@ -1,0 +1,91 @@
+.header {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.platformName {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2e2e2e;
+  margin-top: 10px;
+}
+
+.slogan {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.formContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.interviewForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3b3b3b;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+  padding: 12px 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9fafb;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+.submitButton {
+  padding: 12px 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}

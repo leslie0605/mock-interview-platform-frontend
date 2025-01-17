@@ -1,0 +1,98 @@
+.interviewPage {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebarTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebarProgress {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.mainContent {
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.chatWindow {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionBubble {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 80%;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.answerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.startButton,
+.endButton {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.startButton {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.endButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.answeringSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.answeringStatus {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
